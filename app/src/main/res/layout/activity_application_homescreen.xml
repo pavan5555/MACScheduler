@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uta_maverick_"
+    tools:context=".ApplicationHomescreen">
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="284dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="62dp"
+        android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/registerbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Login" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="274dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="220dp"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbtn"
+        tools:text="Register" />
+
+</android.support.constraint.ConstraintLayout>
